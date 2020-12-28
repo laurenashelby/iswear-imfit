@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title> I Swear ... I'm Fit</title>
+    </head>
+    <body> 
+        <header> 
+            <h1> 
+                <div id="header"> 
+                    <a href="https://iswear-imfit.com/index.html"> <b>A Guide to What the F*ck is Actually Good for You</b></b></a>
+                </div>
+            </h1>
+            <div id="navbar"> 
+                <div id="navlink"> 
+                    <a class="navlink" href="https://iswear-imfit.com/index.html">Home</a>
+                </div>
+                <div id="navlink"> 
+                    <a class="navlink" href="/about/index.html">About</a>
+                </div>
+                <div id="navlink"> 
+                    <a class="navlink" href="/fitness/index.html">Fitness</a>
+                </div>
+                <div id="navlink"> 
+                    <a class="navlink" href="/nutrition/index.html">Nutrition</a>
+                </div>
+                <div id="navlink"> 
+                    <a class="navlink" href="/index.html"> Contact</a>
+                </div>
+            </div>
+        </header>
+        <form action="" method="post">
+            <div class="form"> 
+                <label for="contact" class="formtitle">Your Name </label> 
+                <input type="text" name="name" id="name" size="15" maxlength="50" required>
+            </div>
+            <div class="form"> 
+                <label for="contact" class="formtitle">Email </label> 
+                <input type="text" name="email" id="email" size="15" maxlength="50" required>
+            </div>
+            <div class="form">
+            <label for="purpose" class="formtitle">Nature of Your Message </label> 
+                <div id="purpose">  
+                    <select name="purpose">
+                        <option value="Question" selected>Question</option>
+                        <option value="Comment">Comment</option>
+                        <option value="Request">Request</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form">
+                <label for="message" class="formtitle">Message </label> 
+                <textarea name="comments" id="comments" cols="50" rows="15" placeholder="Please limit your message to approximately 1,000 characters">
+                </textarea> 
+                <input type="hidden" name="email_to" id="email_to" value="shelbyl23@mail.wlu.edu" required>
+            </div>
+            <div id="submit" class="form">
+                <button id="submitbutton" name="submit">Submit</button>  
+            </div>              
+        </form>
+
+        <footer> 
+            Lauren Shelby &copy; 2019
+        </footer>
+    </body>
+</html>
