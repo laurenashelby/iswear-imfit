@@ -10,11 +10,11 @@ div#header img {
     border-width: thin; 
     width: 90%; 
     text-align: right; 
-    font-family: "Futura", "Trebuchet MS"; 
+    font-family: "Sans-serif", "Roboto"; 
     margin-bottom: 10px; 
     padding: 10px; 
     margin-top: 10px; 
-    margin: 10% auto 10% auto; 
+    margin-left: 15%; 
     height: 20px; 
 }
 
@@ -22,7 +22,7 @@ div#header img {
     display: inline-block;
     padding: 0px 40px; 
     text-align: center; 
-    font-family: "Futura", "Trebuchet MS"; 
+    font-family: "Sans-serif", "Roboto";  
 }
 
 #homelink {
@@ -30,8 +30,9 @@ div#header img {
     border-style: solid; 
     border-width: thin; 
     width: 10%; 
-    font-family: "Futura", "Trebuchet MS"; 
+    font-family: "Sans-serif", "Roboto"; 
     margin-bottom: 10px; 
+    margin-right: 85%;
 }
 
 a:link {
