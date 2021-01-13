@@ -12,6 +12,8 @@ div#header img {
     text-align: right; 
     font-family: "Futura", "Trebuchet MS"; 
     margin-bottom: 10px; 
+    padding: 10px; 
+    margin-top: 10px; 
 }
 
 .navlink {
@@ -28,4 +30,14 @@ div#header img {
     width: 10%; 
     font-family: "Futura", "Trebuchet MS"; 
     margin-bottom: 10px; 
+}
+
+a:link {
+    color: darkorange;
+    text-decoration: none; 
+}
+
+a:visited {
+    color: powderblue; 
+    text-decoration: none; 
 }
