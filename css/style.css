@@ -16,6 +16,7 @@ div#header img {
     margin-top: 10px; 
     margin-left: 15%; 
     height: 20px; 
+    display: inline-block; 
 }
 
 .navlink {
@@ -33,6 +34,14 @@ div#header img {
     font-family: "Sans-serif", "Roboto"; 
     margin-bottom: 10px; 
     margin-right: 85%;
+    display: inline-block;
+}
+
+#header {
+    font-family: "Sans-serif", "Roboto"; 
+    font-size: 10px; 
+    width: 100%; 
+    display: inline-block;
 }
 
 a:link {
