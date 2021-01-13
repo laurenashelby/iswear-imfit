@@ -1,0 +1,31 @@
+/* main homepage section and transferable header design for all pages */ 
+
+div#header img {
+    height: 250px; 
+    width: 100%; 
+}
+
+#navbar {
+    border-style: solid; 
+    border-width: thin; 
+    width: 90%; 
+    text-align: right; 
+    font-family: "Futura", "Trebuchet MS"; 
+    margin-bottom: 10px; 
+}
+
+.navlink {
+    display: inline-block;
+    padding: 0px 40px; 
+    text-align: center; 
+    font-family: "Futura", "Trebuchet MS"; 
+}
+
+#homelink {
+    text-align: left; 
+    border-style: solid; 
+    border-width: thin; 
+    width: 10%; 
+    font-family: "Futura", "Trebuchet MS"; 
+    margin-bottom: 10px; 
+}
